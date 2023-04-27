@@ -1,0 +1,44 @@
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Audiowide";
+}
+.postcard-header {
+	display: flex;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+img {
+	height: 25%;
+	width: 25%;
+}
+
+.body-left p:first-child {
+	margin-top: 1px;
+}
+
+.body-left,
+.body-right {
+	padding: 1px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	font-family: "Audiowide";
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: antiquewhite;
+	padding: 1px;
+	font-family: "Audiowide";
+}
